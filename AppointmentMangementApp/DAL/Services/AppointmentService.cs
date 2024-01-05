@@ -18,7 +18,7 @@ namespace AppointmentManagementApp.DAL.Services
             _repository = repository;
         }
 
-        public Task<Appointment> CreateAppointment(Appointment expense)
+        public Task<Appointment> CreateAppointment(Appointment model)
         {
             //write your code here
             throw new NotImplementedException();

@@ -10,7 +10,7 @@ namespace AppointmentManagementApp.DAL.Services.Repository
     public interface IAppointmentRepository
     {
         List<Appointment> GetAllAppointments();
-        Task<Appointment> CreateAppointment(Appointment expense);
+        Task<Appointment> CreateAppointment(Appointment model);
         Task<Appointment> GetAppointmentById(long id);
         Task<bool> DeleteAppointmentById(long id);
         Task<Appointment> UpdateAppointment(Appointment model);

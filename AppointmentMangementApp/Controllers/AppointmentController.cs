@@ -28,7 +28,7 @@ namespace AppointmentManagementApp.Controllers
         public async Task<IHttpActionResult> CreateAppointment([FromBody] Appointment model)
         {
             //write your code here
-            throw new NotImplementedException();
+            throw new NotImplementedException(); 
         }
 
 

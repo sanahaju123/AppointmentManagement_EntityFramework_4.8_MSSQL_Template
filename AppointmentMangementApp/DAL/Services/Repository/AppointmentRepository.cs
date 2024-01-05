@@ -16,7 +16,7 @@ namespace AppointmentManagementApp.DAL.Services.Repository
         }
 
 
-        public async Task<Appointment> CreateAppointment(Appointment expense)
+        public async Task<Appointment> CreateAppointment(Appointment model)
         {
             //write your code here
             throw new NotImplementedException();
@@ -38,8 +38,8 @@ namespace AppointmentManagementApp.DAL.Services.Repository
         {
             //write your code here
             throw new NotImplementedException();
-        }      
-        
+        }
+
         public async Task<Appointment> UpdateAppointment(Appointment model)
         {
             //write your code here
